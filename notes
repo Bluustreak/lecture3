@@ -1,0 +1,8 @@
+* django-admin startproject MYSITE
+
+* python manage.py runserver
+
+* python manage.py startapp APPNAME
+** main app -> settings, add app to INSTALLESD APPS
+** add a urls.py in the new app
+** in the main app urls, add     path('appname/', include("appname.urls")),
